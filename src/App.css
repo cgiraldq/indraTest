@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#text {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.color-button {
+  width: 350px; 
+  height: 60px; 
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.color-button.red {
+  background-color: red;
+}
+
+.color-button.blue {
+  background-color: blue;
+}
+
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+#modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#modal-content h2{
+margin: 0 auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: red;
+  margin: -40px -15px 0 0;
+}
