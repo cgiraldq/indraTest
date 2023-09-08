@@ -9,7 +9,7 @@ Asegúrate de que tienes Node.js y npm (Node Package Manager) instalados en tu c
 
 Si no tienes Node.js instalado, puedes descargarlo desde el sitio web oficial: https://nodejs.org/
 
-Una vez en el directorio del proyecto, ejecuta el siguiente comando para instalar las dependencias del proyecto que se encuentran en el archivo package.json:
+Una vez en el directorio del proyecto, ejecuta el siguiente comando para instalar las dependencias del proyecto que se encuentran en el archivo package.json (por defecto en el gitignore evita subir la capreta node_modules):
 
     npm install
     
